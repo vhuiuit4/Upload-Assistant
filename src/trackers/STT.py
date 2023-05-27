@@ -135,7 +135,7 @@ class STT():
              '576i': '7',
              '480p': '8',
              '480i': '9'
-            }.get(resolution, '11')
+            }.get(resolution, '10') # 10 is "Other"
         return resolution_id
 
 
